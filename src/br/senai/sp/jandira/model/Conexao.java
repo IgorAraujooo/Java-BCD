@@ -28,4 +28,10 @@ public class Conexao {
         }
     }
 
+
+    public Connection getConnection(){
+        connectDrive();
+        return conexao;
+    }
+
 }
